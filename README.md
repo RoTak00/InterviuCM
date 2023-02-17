@@ -10,7 +10,7 @@ Create a single web page for your photo album. The result should be a  **single*
 
 1.  The document should just contain content markup (no style markup, no JavaScript).
 2.  Where appropriate, the document should use the HTML representation of special characters.
-3.  The document should be a single, valid HTML5 document, that is parsed correctly by the  [W3C ValidatorLinks to an external site.](https://validator.w3.org/nu/#file). Make sure your declare the document's natural language and character encoding - see ZyBook 2.1 for examples.
+3.  The document should be a single, valid HTML5 document, that is parsed correctly by the  [W3C ValidatorLinks to an external site.](https://validator.w3.org/nu/#file). Make sure your declare the document's natural language and character encoding.
 4.  As a first crude version of your photo album, include an HTML  `table`  showing photos of famous authors in one column, along with some metadata that describes what is depicted on the photo in the other columns:
     -   The table should have exactly five columns, with for each item a column named:
         -   **`image`**  (a URI pointing to a representative image of the author on the web),
