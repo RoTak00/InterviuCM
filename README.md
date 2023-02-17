@@ -136,7 +136,7 @@ Link pseudo-classes
 
 ## Exercise 2
 
-[Polish notationLinks to an external site.](https://en.wikipedia.org/wiki/Polish_notation)  is a mathematical notation  in which operators  _precede_ their operands, in contrast to the more common infix notation, in which operators are placed _in between_ operands. Compare the two notations in this example:
+[Polish](https://en.wikipedia.org/wiki/Polish_notation)  is a mathematical notation  in which operators  _precede_ their operands, in contrast to the more common infix notation, in which operators are placed _in between_ operands. Compare the two notations in this example:
 
 -   infix notation: 2 + 3
 -   Polish (prefix) notation: + 2 3
