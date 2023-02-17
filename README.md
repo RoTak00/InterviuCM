@@ -1,6 +1,8 @@
 # Interviu CM/HTML Basic
 
-**Submission Guideline:** Commit your submission to the GitHub repo.
+**Submission Guideline:** Commit your submission to the GitHub repo. Append the two exercises as two separate folders in the commit.
+
+## Exercise 1.
 
 ### HTML part
 
@@ -130,3 +132,23 @@ Other
 Link pseudo-classes
 
 `:link`  `:visited`  `:hover`,  `:active`,  `:focus`,
+
+
+## Part 2
+
+[Polish notationLinks to an external site.](https://en.wikipedia.org/wiki/Polish_notation)  is a mathematical notation  in which operators  _precede_ their operands, in contrast to the more common infix notation, in which operators are placed _in between_ operands. Compare the two notations in this example:
+
+-   infix notation: 2 + 3
+-   Polish (prefix) notation: + 2 3
+
+For this assignment, write a simple calculator using a _switch_ statement. The calculator should be able to evaluate simple expressions consisting of a number, an operator, and another number. Each number is an element of the set of real numbers (R). Each operator is an element of + , − , ∗ , /.
+
+The program should read expressions in Polish notation, evaluate them, and print them, with the result, in infix notation. This process should repeat until the letter  _q_  (as in "quit") is entered in place of the operator. You can assume that only valid expressions will be entered.
+
+An example of a correct execution of the program is shown below:
+
+Enter the expression: + 2 3  
+2 + 3 = 5  
+Enter the expression: * 2.3  4  
+2.3 * 4 = 9.2  
+Enter the expression: q
