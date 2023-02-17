@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authors</title>
+
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    
+
+
+    <section class = "container white">
+        <h1> Photo Album </h1>
+
+        <div>
+            <h2 class = "entry-heading" id = "richard-feynman">Richard Feynman</h2>
+        </div>
+        <div class = "entry-wrapper">
+            <div class = "image-wrapper">
+                
+                <img src = "https://upload.wikimedia.org/wikipedia/en/4/42/Richard_Feynman_Nobel.jpg" alt = "Richard_Feynman">
+            </div>
+
+            <div class = "content-wrapper">
+                <p>Nobel laureate Richard Feynman is the author of the famous The Feynman Lectures on Physics, 
+                    perhaps his most accessible work for anyone with an interest in physics, compiled from lectures to Caltech undergraduates in 1961–64...</p>
+                <p>Tags: physics, nobel_prize, man</p>
+                <p><a href = "https://en.wikipedia.org/wiki/Richard_Feynman" target = "_blank">More on Richard Feynman</a></p>
+            </div>
+        </div>
+
+        <div>
+            <h2 class = "entry-heading" id = "aldous-huxley">Aldoux Huxley</h2>
+        </div>
+        <div class = "entry-wrapper">
+            <div class = "image-wrapper">
+                
+                <img src = "https://collectionimages.npg.org.uk/large/mw52047/Aldous-Huxley.jpg" alt = "Aldous Huxley">
+            </div>
+
+            <div class = "content-wrapper">
+                <p>A black-and-white photo of British Novelist Aldous Huxley, best known for his "Brave new world" novel.</p>
+                <p>Tags: man, author, brave-new-world, english</p>
+                <p><a href = "https://en.wikipedia.org/wiki/Aldous_Huxley" target = "_blank">More on Aldous Huxley</a></p>
+            </div>
+        </div>
+
+        <div>
+            <h2 class = "entry-heading" id = "george-orwell">George Orwell</h2>
+        </div>
+        <div class = "entry-wrapper">
+            <div class = "image-wrapper">
+                <img src = "http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSTP8eM2J7zk8cMjqT8ErQYxOS5UrPoLLJOuUbLTa4U3br6LeYYk3Mt2JVtJ5ZJ1x3rEOqvxDhHbmdniTY" 
+                alt = "George Orwell">
+            </div>
+
+            <div class = "content-wrapper">
+                <p>A black-and-white photo of British Novelist George Orwell, his real name being Eric Arthur Blair. He is best known for his novels 
+                    Animal Farm and 1984.</p>
+                <p>Tags: man, author, animal-farm, 1984, english</p>
+                <p><a href = "https://en.wikipedia.org/wiki/George_Orwell" target = "_blank">More on George Orwell</a></p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class = "container white">
+        <h2> Table of Contents </h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Author</th>
+                    <th>Alt</th>
+                    <th>Tags</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src = "https://upload.wikimedia.org/wikipedia/en/4/42/Richard_Feynman_Nobel.jpg" alt = "Richard Feynman"></td>
+                    <td class = "center"><a href = "#richard-feynman">Richard Feynman</a></td>
+                    <td class = "center">Image of Nobel laureate Richard Feynman</td>
+                    <td class = "center">physics, nobel_prize, man</td>
+                    <td>Nobel laureate Richard Feynman is the author of the famous The Feynman Lectures on Physics, 
+                        perhaps his most accessible work for anyone with an interest in physics, compiled from lectures to Caltech undergraduates in 1961–64...
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><img src = "https://collectionimages.npg.org.uk/large/mw52047/Aldous-Huxley.jpg" alt = "Aldous Huxley"></td>
+                    <td class = "center"><a href = "#aldous-huxley">Aldous Huxley</a></td>
+                    <td class = "center">image of author Aldous Huxley</td>
+                    <td class = "center">man, author, brave-new-world, english</td>
+                    <td>A black-and-white photo of British Novelist Aldous Huxley, best known for his "Brave new world" novel.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><img src = "http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSTP8eM2J7zk8cMjqT8ErQYxOS5UrPoLLJOuUbLTa4U3br6LeYYk3Mt2JVtJ5ZJ1x3rEOqvxDhHbmdniTY" alt = "George Orwell"></td>
+                    <td class = "center"><a href = "#george-orwell">George Orwell</a></td>
+                    <td class = "center">image of author George Orwell</td>
+                    <td class = "center">man, author, animal-farm, 1984, english</td>
+                    <td>A black-and-white photo of British Novelist George Orwell, his real name being Eric Arthur Blair. He is best known for his novels 
+                        Animal Farm and 1984.
+                    </td>
+                </tr>
+
+                
+                
+            </tbody>
+
+        </table>
+        
+    </section>
+
+    <section class = "container padding-bottom">
+        <h2> Browser Compatibility Report</h2>
+        <p class = "justify">
+            The web page was developed using the google chrome browser for testing. Media width queries were used for the container classes (the main sections and divs of the website), 
+            to ensure responsive resizing based on the width of the user's screen.<br>
+            Additionally, media queries were used for the photo album's output, to transform the format from a side-by-side (image &#60;-&#62; content), to a top-down format when the
+            screen width becomes too small. Therefore, the content does not become too small to read when the screen is small.<br>
+            To ensure good printing of the document, "media print" queries were used to enforce some extra rules regarding image breaking and table breaking on page breaks. The background 
+            color was also reverted to pure white to prevent excessive printer ink consumption.
+        </p>
+        
+        <h3>Browser Testing</h3>
+        <ul>
+            <li><strong>Google Chrome: </strong> Great responsiveness, good printing results. No errors encountered when resizing the page.</li>
+            <li><strong>Microsoft Edge: </strong> Good responsiveness, good printing results. No errors encountered when resizing the page.</li>
+        </ul>
+        
+    </section>
+</body>
+</html>
