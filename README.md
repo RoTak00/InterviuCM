@@ -2,7 +2,7 @@
 
 **Submission Guideline:** Commit your submission to the GitHub repo. Append the two exercises as two separate folders in the commit.
 
-## Exercise 1.
+## Exercise 1
 
 ### HTML part
 
@@ -134,7 +134,7 @@ Link pseudo-classes
 `:link`  `:visited`  `:hover`,  `:active`,  `:focus`,
 
 
-## Part 2
+## Exercise 2
 
 [Polish notationLinks to an external site.](https://en.wikipedia.org/wiki/Polish_notation)  is a mathematical notation  in which operators  _precede_ their operands, in contrast to the more common infix notation, in which operators are placed _in between_ operands. Compare the two notations in this example:
 
